@@ -1,0 +1,14 @@
+langgraph
+langchain-anthropic
+langchain-core
+transformers
+torch
+textblob
+psycopg2-binary
+sqlalchemy
+streamlit
+plotly
+pandas
+numpy
+python-dotenv
+detoxify
