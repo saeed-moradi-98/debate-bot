@@ -17,8 +17,6 @@ This tool is designed for **research purposes only** with **informed consent**. 
 - Production chatbots without disclosure
 - Any harmful or unethical applications
 
----
-
 ## 🌟 Features
 
 ### Core Capabilities
@@ -44,12 +42,6 @@ This tool is designed for **research purposes only** with **informed consent**. 
 - Pattern detection for harmful content
 - Response sanitization
 - Emergency stop mechanisms
-
----
-
-## 🏗️ Architecture
-
----
 
 ## 🚀 Quick Start
 
@@ -114,8 +106,6 @@ python main.py
 streamlit run dashboard/app.py
 ```
 
----
-
 ## 📖 Usage Guide
 
 ### Starting a Debate Session
@@ -148,8 +138,6 @@ print(analytics)
 2. **Provide informed consent**
 3. **Engage in debate**
 4. **View session summary**
-
----
 
 ## 📊 Dashboard Features
 
@@ -184,8 +172,6 @@ streamlit run dashboard/app.py
    - Download session data as JSON
    - Includes all metrics and conversation history
 
----
-
 ## 🔧 Configuration
 
 Edit `config.py` to customize:
@@ -207,8 +193,6 @@ class Config:
     LLM_MODEL: str = "claude-sonnet-4-20250514"
     SENTIMENT_MODEL: str = "cardiffnlp/twitter-roberta-base-emotion"
 ```
-
----
 
 ## 🧪 Testing
 
@@ -234,12 +218,6 @@ is_safe, violations = safety_checker.check_safety('You are wrong about everythin
 print(f'Safe: {is_safe}, Violations: {violations}')
 "
 ```
-
----
-
-## 📁 Project Structure
-
----
 
 ## 🔬 Research Applications
 
@@ -338,8 +316,6 @@ class SafetyChecker:
         self.toxicity_threshold = 0.6  # More lenient
 ```
 
----
-
 ## 🎯 Advanced Features
 
 ### Dynamic Stance Assignment
@@ -365,8 +341,6 @@ Beyond discomfort, tracks:
 - Contradiction detection
 - Concession counting
 - Engagement scoring
-
----
 
 ## 🐛 Troubleshooting
 
@@ -399,8 +373,6 @@ SENTIMENT_MODEL: str = "distilbert-base-uncased-finetuned-sst-2-english"
 import time
 time.sleep(1)  # Wait 1 second between API calls
 ```
-
----
 
 ## 📈 Performance Optimization
 
@@ -436,8 +408,6 @@ def analyze_session(session_id):
 with Pool(4) as p:
     results = p.map(analyze_session, session_ids)
 ```
-
----
 
 ## 🤝 Contributing
 
